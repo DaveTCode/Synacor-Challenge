@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Disassemble": {
+      "commandName": "Project",
+      "commandLineArgs": "disassemble -f challenge.bin"
+    },
+    "Run": {
+      "commandName": "Project",
+      "commandLineArgs": "run -f challenge.bin -i inputs.txt"
+    },
+    "FindCode": {
+      "commandName": "Project",
+      "commandLineArgs": "find_teleporter_code -f challenge.bin -i inputs.txt"
+    }
+  }
+}
